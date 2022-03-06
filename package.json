@@ -1,0 +1,92 @@
+{
+  "name": "json-snippet-to-md-documentation",
+	"displayName": "JSON Snippet file to beautiful .MD file Documentation",
+	"description": "Converts JSON Snippets file to MD Documentation with information about prefixes and their associated snippets.",
+	"version": "0.0.1",
+	"publisher": "M. Eng. R. Batinov",
+	"author": {
+		"name": "M. Eng. R. Batinov"
+	},
+	"keywords" : ["Documentation", ".md file", "snippets converter", "snippets documentation", "snippets", "markdown"],
+	"galleryBanner": {
+		"color": "#C80000",
+		"theme": "light"
+	  },
+	"icon": "snippet-to-md.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rbatinov"
+	  },
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"engines": {
+		"vscode": "^1.65.0"
+	},
+	"categories": [
+		"Other",
+		"Programming Languages", 
+		"Snippets", 
+		"Linters", 
+		"Formatters"
+	],
+	"activationEvents": [
+        "onCommand:json-snippet-to-md-documentation.toMdDoc"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [{
+            "command": "json-snippet-to-md-documentation.toMdDoc",
+            "title": "export to .md file documentation"
+
+		}],
+
+		"configuration": {
+			"type" : "object",
+			"title": "JSON Snippets Configurations",
+			"properties": {
+				"json-snippet-to-md-documentation.multiplePrefixesDelimiter": {
+					"type": "string",
+					"default": " OR ",
+					"description": "Delimiter for multiple Prefixes"
+				},
+				"json-snippet-to-md-documentation.codeBlockMessageStart": {
+					"type": "string",
+					"default": "Write down ",
+					"description": "Code Block Comment Message /before Prefixes/"
+				},
+				"json-snippet-to-md-documentation.CodeBlockMessageEnd": {
+					"type": "string",
+					"default": " and press Tab to insert snippet",
+					"description": "Code Block Comment Message /after Prefixes/"
+				},
+				"json-snippet-to-md-documentation.MDHeader": {
+					"type": "string",
+					"default": "JSON Snippets to MD File",
+					"description": "File Header Name with H1 heading"
+				},
+				"json-snippet-to-md-documentation.MDdescription": {
+					"type": "string",
+					"default": "This is a simple documentation of prefixes with their associated snippets.",
+					"description": "File Description"
+				}	
+			}
+		}	
+	},
+
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+        "@types/vscode": "^1.65.0",
+        "@types/glob": "^7.2.0",
+        "@types/mocha": "^9.1.0",
+        "@types/node": "14.x",
+        "eslint": "^8.9.0",
+        "glob": "^7.2.0",
+        "mocha": "^9.2.1",
+        "typescript": "^4.5.5",
+        "@vscode/test-electron": "^2.1.2"
+    }
+
+}
