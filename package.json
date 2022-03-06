@@ -12,10 +12,10 @@
 		"color": "#C80000",
 		"theme": "light"
 	  },
-	"icon": "snippet-to-md.png",
+	"icon": "icon.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/rbatinov"
+		"url": "https://github.com/rbatinov/json-snippet-to-md-documentation"
 	  },
 	"license": "SEE LICENSE IN LICENSE.txt",
 	"engines": {
