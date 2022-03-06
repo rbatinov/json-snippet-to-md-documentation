@@ -52,7 +52,7 @@ Choose the command and new .md file with content will be opened.
     3. Collapse `Extensions Section` 
     4. Choose `JSON Snippets Configurations`
     5. List of options will be loaded /in *italics* are the default values which can be changed/:
-        - `When having multiple Prefix Text`
+        - `Multiple Prefixes Delimiter`
             - If some snippet has multiple prefixes, this is the delimiter for them in the documentation.
                 > ## select-statement
                 >  **Prefix:** sel OR select
