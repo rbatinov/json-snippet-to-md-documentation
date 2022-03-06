@@ -1,6 +1,6 @@
 # JSON Snippet File Converter /to .md file with block of codes/
 
-This is an extension which converts JSON Snippet file into beautiful .md documentation.  
+This is a VS Code extension which converts JSON Snippet file into beautiful .md documentation.  
 
 It can be useful for anyone who develops VS Code Snippet Extensions and wants to automatically create documentation for prefixes and their snippets.
 
