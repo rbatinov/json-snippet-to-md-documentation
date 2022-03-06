@@ -2,7 +2,7 @@
   "name": "json-snippet-to-md-documentation",
   "displayName": "JSON Snippet file to beautiful .MD file Documentation",
   "description": "Converts JSON Snippets file to MD Documentation with information about prefixes and their associated snippets.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publisher": "MEngRBatinov",
   "author": {
     "name": "M. Eng. R. Batinov"
