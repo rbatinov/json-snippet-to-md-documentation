@@ -9,7 +9,7 @@
 	},
 	"keywords" : ["Documentation", ".md file", "snippets converter", "snippets documentation", "snippets", "markdown"],
 	"galleryBanner": {
-		"color": "#C80000",
+		"color": "#cbeaff",
 		"theme": "light"
 	  },
 	"icon": "images/icon.png",
