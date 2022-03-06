@@ -3,7 +3,7 @@
 	"displayName": "JSON Snippet file to beautiful .MD file Documentation",
 	"description": "Converts JSON Snippets file to MD Documentation with information about prefixes and their associated snippets.",
 	"version": "0.0.1",
-	"publisher": "M. Eng. R. Batinov",
+	"publisher": "MEngRBatinov",
 	"author": {
 		"name": "M. Eng. R. Batinov"
 	},
@@ -12,7 +12,7 @@
 		"color": "#C80000",
 		"theme": "light"
 	  },
-	"icon": "icon.png",
+	"icon": "images/icon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/rbatinov/json-snippet-to-md-documentation"
