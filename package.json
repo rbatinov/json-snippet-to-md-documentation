@@ -24,6 +24,7 @@
     "type": "git",
     "url": "https://github.com/rbatinov/json-snippet-to-md-documentation"
   },
+  "homepage": "https://github.com/rbatinov/json-snippet-to-md-documentation",
   "license": "SEE LICENSE IN LICENSE.txt",
   "engines": {
     "vscode": "^1.65.0"

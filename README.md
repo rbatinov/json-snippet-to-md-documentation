@@ -38,7 +38,18 @@ FROM table;
 
 ## How to use
 
-1. Install the extension.  
+1. Install the extension: 
+    - from [Marketplace](https://marketplace.visualstudio.com/items?itemName=MEngRBatinov.json-snippet-to-md-documentation&ssr=false#overview).  
+    ![Extension Search](./images/extension-marketplace.png)  
+    - from VS Code
+        1. Open VS Code.
+        2. Select `Extensions` from left panel or press `Ctrl + Shift + X`.
+        3. Type in `json-snippet-to-md-documentation`. The extension with name `JSON Snippets file to beautiful .MD file Documentation` will show.   
+        ![Extension Search](./images/extension-search.png)  
+        4. You can select the extension and read the overview features if you want.  
+        ![Extension Search](./images/extension-overview.png)  
+        5. Pres `Install` button and you are ready.
+
 2. Open your snippet.json file.  
 3. Press Ctrl + Shift + P and write down:
 
@@ -112,7 +123,7 @@ Currently there are no known issues.
 
 ## Release Notes
 
-### 1.0.0
+### 0.3.0
 
 Change extension logo
 
