@@ -112,6 +112,10 @@ Currently there are no known issues.
 
 ## Release Notes
 
+### 1.0.0
+
+Change extension logo
+
 ### 0.0.1
 
 First release of extension
