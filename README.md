@@ -123,7 +123,7 @@ Currently there are no known issues.
 
 ## Release Notes
 
-### 0.3.0
+### 0.4.0
 
 Change extension logo
 
