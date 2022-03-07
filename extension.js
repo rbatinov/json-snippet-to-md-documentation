@@ -110,7 +110,7 @@ function convertToDocumentation(documentText){
 						multiplePrefix = multiplePrefix + prefixArr[x] + sp1 + confMultiplePrefixesDelimiter + sp1;
 					}
 
-					multiplePrefix = multiplePrefix.substring(0, multiplePrefix.length - 4);
+					multiplePrefix = multiplePrefix.substring(0, multiplePrefix.length - confMultiplePrefixesDelimiter.length);
 				}
 
 				// concatenate string when body is an array
