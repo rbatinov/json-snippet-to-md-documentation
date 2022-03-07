@@ -53,7 +53,7 @@
       "properties": {
         "json-snippet-to-md-documentation.multiplePrefixesDelimiter": {
           "type": "string",
-          "default": " OR THIS ",
+          "default": " OR ",
           "description": "Delimiter for multiple Prefixes"
         },
         "json-snippet-to-md-documentation.codeBlockMessageStart": {

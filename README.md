@@ -123,7 +123,7 @@ Currently there are no known issues.
 
 ## Release Notes
 
-### 0.5.0
+### 0.6.0
 
 Bugfix of `Delimiter for multiple Prefixes` parameter
 
